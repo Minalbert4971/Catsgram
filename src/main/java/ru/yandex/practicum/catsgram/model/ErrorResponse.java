@@ -1,9 +1,9 @@
-package ru.yandex.practicum.catsgram.controller;
+package ru.yandex.practicum.catsgram.model;
 
 import lombok.Getter;
 
 @Getter
-class ErrorResponse {
+public class ErrorResponse {
     private final String error;
 
     public ErrorResponse(String error) {
